@@ -5,7 +5,7 @@
   <groupId>com.ornelo.javainfo</groupId>
   <artifactId>Tutorial01</artifactId>
   <packaging>war</packaging>
-  <version>0.0.2-SNAPSHOT</version>
+  <version>0.0.3-SNAPSHOT</version>
 
   <name>Tutorial01</name>
   <url>http://maven.apache.org</url>
