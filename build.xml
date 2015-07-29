@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Test01" default="main target">
+<target name="main target">
+    <echo>Executing main target...</echo>
+</target>
+</project>
