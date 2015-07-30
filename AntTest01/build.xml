@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project  name="Testing Ant 5">
 	<target name="compile">
-	     <javac srcdir="./src"  destdir="staging" />
+	     <javac includeantruntime="true" srcdir="./src"  destdir="staging" />
 	  </target>
   <target name="run" depends="compile">
     <java classname="com.ant.test.HelloAnt">
