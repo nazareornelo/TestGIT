@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project  name="Testing Ant 5">
-	<target name="compile">
+<project default="run"  name="Testing Ant 5">
+	<target name="clean">
+	        <delete dir="staging"/>
+	    </target>
+
+	<target name="compile" depends="clean">
+		 <mkdir dir="staging"/>
 	     <javac includeantruntime="false" srcdir="./src"  destdir="staging" debug="on"/>
 	  </target>
   <target name="run" depends="compile">
