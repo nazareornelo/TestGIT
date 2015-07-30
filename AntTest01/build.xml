@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project default="run" name="Testing Ant 5">
+<project  name="Testing Ant 5">
 	<target name="compile">
 	     <javac includeantruntime="true" srcdir="./src"  destdir="staging" />
 	  </target>
