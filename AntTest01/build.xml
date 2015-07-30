@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project default="run" name="Testing Ant 5">
+	<target name="compile">
+	     <javac includeantruntime="true" srcdir="./src"  destdir="staging" />
+	  </target>
   <target name="run" depends="compile">
     <java classname="com.ant.test.HelloAnt">
         <classpath path="staging" />
     </java>
   </target>
-  <target name="compile">
-     <javac includeantruntime="true" srcdir="./src"  destdir="staging" />
-  </target>
+
 </project>
